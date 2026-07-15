@@ -1,21 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Planejador de Escalas de Turismo - Interface Tkinter
-
-Start:
-    python tour_assignment_gui.py
-
-Banco de dados:
-    tour_assignment_data.json deve estar na mesma pasta.
-
-Pacotes opcionais:
-    pip install scipy numpy openpyxl
-
-- scipy/numpy: otimização exata da escala diária
-- openpyxl: exportação em .xlsx
-"""
-
 from __future__ import annotations
 
 import csv
