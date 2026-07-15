@@ -1,0 +1,2102 @@
+{
+  "version": 1,
+  "settings": {
+    "maximum_group_size_with_only_one_person": 7
+  },
+  "cars": {
+    "BDQ3B09": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN/ VERSA",
+      "renavam": "1206595407",
+      "ano_modelo": "2019/2020",
+      "selo_foztrans": "46518",
+      "numero_do_carro": 3,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "BAE9300": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN / VERSA",
+      "renavam": "1160746858",
+      "ano_modelo": "2018/2020",
+      "selo_foztrans": "46514",
+      "numero_do_carro": 9,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "BAE7879": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN / VERSA",
+      "renavam": "FIDEL",
+      "ano_modelo": "2018/2019",
+      "selo_foztrans": "46515",
+      "numero_do_carro": null,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "BAE6088": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN / VERSA",
+      "renavam": "1160726814",
+      "ano_modelo": "2018/2019",
+      "selo_foztrans": "46511",
+      "numero_do_carro": null,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "BAE5700": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN / VERSA",
+      "renavam": "1160726300",
+      "ano_modelo": "2018/2019",
+      "selo_foztrans": "46515",
+      "numero_do_carro": 5,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "BAE0G77": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN / VERSA",
+      "renavam": "1161575763",
+      "ano_modelo": "2018/2019",
+      "selo_foztrans": "46514",
+      "numero_do_carro": 10,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "BDQ3B05": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN / VERSA",
+      "renavam": "1208328554",
+      "ano_modelo": "2019/2020",
+      "selo_foztrans": "46514",
+      "numero_do_carro": 11,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "BAE8022": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN / VERSA",
+      "renavam": "1160728302",
+      "ano_modelo": "2018/2019",
+      "selo_foztrans": "46518",
+      "numero_do_carro": 8,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "BDQ3B06": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN / VERSA",
+      "renavam": "1206594915",
+      "ano_modelo": "2019/2020",
+      "selo_foztrans": "46511",
+      "numero_do_carro": 12,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "BAE5088": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "MERCEDEZ/SPRINTER",
+      "renavam": "1158860029",
+      "ano_modelo": "2018/2019",
+      "selo_foztrans": "46520",
+      "numero_do_carro": null,
+      "capacidade_min_de_pessoas": 7,
+      "capacidade_max_de_pessoas": 12
+    },
+    "BAE8282": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "MERCEDEZ / C180",
+      "renavam": "1164768759",
+      "ano_modelo": "2018/2018",
+      "selo_foztrans": "46522",
+      "numero_do_carro": null,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "UAY7D24": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "EXPERT",
+      "renavam": "1465010154",
+      "ano_modelo": "2025/2025",
+      "selo_foztrans": "46366",
+      "numero_do_carro": 4,
+      "capacidade_min_de_pessoas": 4,
+      "capacidade_max_de_pessoas": 6
+    },
+    "UBV6G82": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN / VERSA",
+      "renavam": "1489705772",
+      "ano_modelo": "2026/2026",
+      "selo_foztrans": "46519",
+      "numero_do_carro": 6,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "UBV7A12": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN / VERSA",
+      "renavam": "1489704644",
+      "ano_modelo": "2026/2026",
+      "selo_foztrans": "46519",
+      "numero_do_carro": 14,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "UBH8I23": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN / VERSA",
+      "renavam": "01481816338",
+      "ano_modelo": "2025/2026",
+      "selo_foztrans": null,
+      "numero_do_carro": 7,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "UBH9J12": {
+      "frota": "ARVOREVIDA",
+      "marca_modelo": "NISSAN / VERSA",
+      "renavam": "01482124260",
+      "ano_modelo": "2025/2026",
+      "selo_foztrans": null,
+      "numero_do_carro": 4,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "SEN9F61": {
+      "frota": "EIDT",
+      "marca_modelo": "PEUGEOT/EXPERT",
+      "renavam": "01351561143",
+      "ano_modelo": "2023/2024",
+      "selo_foztrans": "46200",
+      "numero_do_carro": 1,
+      "capacidade_min_de_pessoas": 4,
+      "capacidade_max_de_pessoas": 6
+    },
+    "TAJ3G67": {
+      "frota": "EIDT",
+      "marca_modelo": "PEUGEOT/EXPERT",
+      "renavam": "01398871866",
+      "ano_modelo": "2024/2024",
+      "selo_foztrans": "46211",
+      "numero_do_carro": 2,
+      "capacidade_min_de_pessoas": 4,
+      "capacidade_max_de_pessoas": 6
+    },
+    "TAO0J52": {
+      "frota": "EIDT",
+      "marca_modelo": "PEUGEOT/EXPERT",
+      "renavam": "01412141823",
+      "ano_modelo": "2024/2024",
+      "selo_foztrans": "46249",
+      "numero_do_carro": 3,
+      "capacidade_min_de_pessoas": 4,
+      "capacidade_max_de_pessoas": 6
+    },
+    "TAI2I59": {
+      "frota": "EIDT",
+      "marca_modelo": "VERSA / NISSAN",
+      "renavam": "01397590006",
+      "ano_modelo": "2024/2024",
+      "selo_foztrans": "46225",
+      "numero_do_carro": 1,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "SEM9G22": {
+      "frota": "EIDT",
+      "marca_modelo": "VERSA / NISSAN",
+      "renavam": "01349525437",
+      "ano_modelo": "2023/2023",
+      "selo_foztrans": "46326",
+      "numero_do_carro": 2,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "TBS5B25": {
+      "frota": "EIDT",
+      "marca_modelo": "VERSA / NISSAN",
+      "renavam": "01449619158",
+      "ano_modelo": "2025/2026",
+      "selo_foztrans": "ENIO PARTICULAR",
+      "numero_do_carro": null,
+      "capacidade_min_de_pessoas": 1,
+      "capacidade_max_de_pessoas": 3
+    },
+    "EWU2C33": {
+      "frota": "EIDT",
+      "marca_modelo": "VW/ GRANMICRO",
+      "renavam": null,
+      "ano_modelo": "2012/2012",
+      "selo_foztrans": "NICO",
+      "numero_do_carro": null,
+      "capacidade_min_de_pessoas": 13,
+      "capacidade_max_de_pessoas": 17
+    },
+    "BAE4008": {
+      "frota": "RIGOR",
+      "marca_modelo": "MORCOPOLO / ONIBUS",
+      "renavam": "528714945",
+      "ano_modelo": "2012/2013",
+      "selo_foztrans": "46515",
+      "numero_do_carro": null,
+      "capacidade_min_de_pessoas": 18,
+      "capacidade_max_de_pessoas": 50
+    }
+  },
+  "guides": {
+    "Maiko": {
+      "languages": [
+        "italiano"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Veronique": {
+      "languages": [
+        "francês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Loni": {
+      "languages": [
+        "alemão",
+        "espanhol"
+      ],
+      "is_driver": false,
+      "is_guide": true,
+      "can_drive": []
+    },
+    "Elcio": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Julierton": {
+      "languages": [
+        "inglês",
+        "italiano"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Wagner": {
+      "languages": [
+        "francês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Ivone": {
+      "languages": [
+        "alemão"
+      ],
+      "is_driver": false,
+      "is_guide": true,
+      "can_drive": []
+    },
+    "Willian": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Giovani": {
+      "languages": [
+        "italiano"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Hakin": {
+      "languages": [
+        "francês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Romildo": {
+      "languages": [
+        "alemão",
+        "espanhol"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Bernardo": {
+      "languages": [
+        "inglês",
+        "francês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Fidel": {
+      "languages": [
+        "inglês",
+        "italiano"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Ana Selle": {
+      "languages": [
+        "francês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Jandir": {
+      "languages": [
+        "alemão"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Debora": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Flavio": {
+      "languages": [
+        "italiano"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Paulo Baron": {
+      "languages": [
+        "alemão"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Carini": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Nereu": {
+      "languages": [
+        "italiano"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Wilson": {
+      "languages": [
+        "inglês",
+        "francês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Paulinho": {
+      "languages": [
+        "alemão"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Lino": {
+      "languages": [
+        "italiano"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Reginaldo": {
+      "languages": [
+        "inglês",
+        "francês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Enio Baron": {
+      "languages": [
+        "alemão"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Junior": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Jair Triaca": {
+      "languages": [
+        "inglês",
+        "italiano"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BAE4008"
+      ]
+    },
+    "Denis": {
+      "languages": [
+        "francês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Darci": {
+      "languages": [
+        "alemão"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Nicolas": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Sartor": {
+      "languages": [
+        "italiano"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Jair Afonso": {
+      "languages": [
+        "alemão"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Netto": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Miguel": {
+      "languages": [
+        "inglês",
+        "italiano"
+      ],
+      "is_driver": false,
+      "is_guide": true,
+      "can_drive": []
+    },
+    "Edio": {
+      "languages": [
+        "alemão"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Oliveira": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Fabiano": {
+      "languages": [
+        "italiano"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Ilton": {
+      "languages": [
+        "alemão",
+        "espanhol"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BAE5088"
+      ]
+    },
+    "Tiago": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Geovani": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Rodrigo": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Marcolino": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Chader": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Jeferson": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Leonardo": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Celso Aguayo": {
+      "languages": [
+        "inglês"
+      ],
+      "is_driver": true,
+      "is_guide": true,
+      "can_drive": [
+        "BDQ3B09",
+        "BAE9300",
+        "BAE7879",
+        "BAE6088",
+        "BAE5700",
+        "BAE0G77",
+        "BDQ3B05",
+        "BAE8022",
+        "BDQ3B06",
+        "BAE8282",
+        "UAY7D24",
+        "UBV6G82",
+        "UBV7A12",
+        "UBH8I23",
+        "UBH9J12",
+        "SEN9F61",
+        "TAJ3G67",
+        "TAO0J52",
+        "TAI2I59",
+        "SEM9G22",
+        "TBS5B25"
+      ]
+    },
+    "Jair Polaco": {
+      "languages": [],
+      "is_driver": true,
+      "is_guide": false,
+      "can_drive": [
+        "BAE4008"
+      ]
+    },
+    "Nico": {
+      "languages": [],
+      "is_driver": true,
+      "is_guide": false,
+      "can_drive": [
+        "EWU2C33"
+      ]
+    }
+  },
+  "hotels": {
+    "Hotel das Cataratas, A Belmond Hotel, Iguassu Falls": {
+      "adresse": "Rodovia BR-469, Km 32, Parque Nacional do Iguaçu, Foz do Iguaçu - PR, 85855-750",
+      "land": "Brasil"
+    },
+    "Sanma Hotel": {
+      "adresse": "Av. das Cataratas, 12280 - Km 21, Foz do Iguaçu - PR, 85859-899",
+      "land": "Brasil"
+    },
+    "Vivaz Cataratas Resort": {
+      "adresse": "Av. das Cataratas, 6798 - Carimã, Foz do Iguaçu - PR",
+      "land": "Brasil"
+    },
+    "Grand Carimã Resort & Convention Center": {
+      "adresse": "Av. das Cataratas, 4790, Foz do Iguaçu - PR",
+      "land": "Brasil"
+    },
+    "Mabu Thermas Grand Resort": {
+      "adresse": "Av. das Cataratas, 3175 - Vila Yolanda, Foz do Iguaçu - PR, 85853-000",
+      "land": "Brasil"
+    },
+    "DoubleTree by Hilton Foz do Iguaçu Brazil": {
+      "adresse": "Av. das Cataratas, 2930 - Vila Yolanda, Foz do Iguaçu - PR, 85853-000",
+      "land": "Brasil"
+    },
+    "Bourbon Thermas Eco Resort Cataratas do Iguaçu": {
+      "adresse": "Av. das Cataratas, 2345 - Vila Yolanda, Foz do Iguaçu - PR, 85853-000",
+      "land": "Brasil"
+    },
+    "Viale Cataratas Hotel & Eventos": {
+      "adresse": "Av. das Cataratas, 2420 - Vila Yolanda, Foz do Iguaçu - PR",
+      "land": "Brasil"
+    },
+    "LAS Hotel Boutique": {
+      "adresse": "Rua Oscar Genehr, 425 - Cataratas, Foz do Iguaçu - PR, 85853-860",
+      "land": "Brasil"
+    },
+    "Viale Tower Hotel": {
+      "adresse": "Av. Jorge Schimmelpfeng, 232 - Centro, Foz do Iguaçu - PR",
+      "land": "Brasil"
+    },
+    "Hotel Rafain Centro": {
+      "adresse": "Rua Marechal Deodoro, 984 - Centro, Foz do Iguaçu - PR",
+      "land": "Brasil"
+    },
+    "Nadai Confort Hotel & SPA": {
+      "adresse": "Av. República Argentina, 1332 - Centro, Foz do Iguaçu - PR, 85851-200",
+      "land": "Brasil"
+    },
+    "Tarobá Hotel": {
+      "adresse": "Rua Tarobá, 1048 - Centro, Foz do Iguaçu - PR, 85851-220",
+      "land": "Brasil"
+    },
+    "Recanto Cataratas Thermas Resort & Convention": {
+      "adresse": "Av. Costa e Silva, 3500, Foz do Iguaçu - PR",
+      "land": "Brasil"
+    },
+    "Falls Galli Hotel": {
+      "adresse": "Av. Costa e Silva, 1602, Foz do Iguaçu - PR, 85852-282",
+      "land": "Brasil"
+    },
+    "Wish Foz do Iguaçu Resort": {
+      "adresse": "Av. das Cataratas, 6845 - Tamanduá, Foz do Iguaçu - PR, 85853-000",
+      "land": "Brasil"
+    },
+    "Gran Meliá Iguazú": {
+      "adresse": "Parque Nacional Iguazú S/N, Puerto Iguazú, Misiones 3370",
+      "land": "Argentina"
+    },
+    "La Reserva Virgin Lodge": {
+      "adresse": "Calles Ñamandú Rú Eté y Batalla Tekoá, Selva Iryapú, Puerto Iguazú, Misiones 3370",
+      "land": "Argentina"
+    },
+    "Loi Suites Iguazú Hotel": {
+      "adresse": "Selva Iryapú s/n, Puerto Iguazú, Misiones 3370",
+      "land": "Argentina"
+    },
+    "Mercure Iguazu Hotel Iru": {
+      "adresse": "Selva Iryapú S/N, Predio 600 Has, Puerto Iguazú, Misiones 3370",
+      "land": "Argentina"
+    }
+  },
+  "tourist_groups": {
+    "group1": {
+      "pax": 2,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 51421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Fuchs Anajali",
+        "Mario Sperry"
+      ],
+      "nacionalidade": "Inglaterra",
+      "hotel": "DoubleTree by Hilton Foz do Iguaçu Brazil",
+      "voo_chegada_existe": true,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "19:00",
+      "voo_chegada_numero": "JJ 3290",
+      "voo_partida_existe": true,
+      "voo_partida_data": "11.08.2026",
+      "voo_partida_horario": "06:00",
+      "voo_partida_numero": "JJ 3879",
+      "idioma": "inglês",
+      "file": "51852",
+      "pedagios": "br+arg",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group2": {
+      "pax": 3,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 51121,
+      "numero_de_guias_externos": 1,
+      "nomes_dos_passageiros": [
+        "Hans Müller",
+        "Ana Schmidt"
+      ],
+      "nacionalidade": "Alemanha",
+      "hotel": "Bourbon Thermas Eco Resort Cataratas do Iguaçu",
+      "voo_chegada_existe": true,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "11:30",
+      "voo_chegada_numero": "KK 3290",
+      "voo_partida_existe": true,
+      "voo_partida_data": "11.08.2026",
+      "voo_partida_horario": "07:30",
+      "voo_partida_numero": "JJ 1179",
+      "idioma": "alemão",
+      "file": "51851",
+      "pedagios": "br+arg",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group3": {
+      "pax": 4,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 11421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Luca Bianchi",
+        "Elena Ferrara"
+      ],
+      "nacionalidade": "Itália",
+      "hotel": "LAS Hotel Boutique",
+      "voo_chegada_existe": false,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "",
+      "voo_chegada_numero": "",
+      "voo_partida_existe": true,
+      "voo_partida_data": "12.08.2026",
+      "voo_partida_horario": "08:45",
+      "voo_partida_numero": "LA 4721",
+      "idioma": "italiano",
+      "file": "58294",
+      "pedagios": "br",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group4": {
+      "pax": 6,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 21421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "John Carter",
+        "Emily Carter"
+      ],
+      "nacionalidade": "Estados Unidos",
+      "hotel": "Hotel das Cataratas, A Belmond Hotel, Iguassu Falls",
+      "voo_chegada_existe": true,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "15:20",
+      "voo_chegada_numero": "AA 7814",
+      "voo_partida_existe": true,
+      "voo_partida_data": "13.08.2026",
+      "voo_partida_horario": "10:10",
+      "voo_partida_numero": "AA 7822",
+      "idioma": "inglês",
+      "file": "73916",
+      "pedagios": "br+arg",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group5": {
+      "pax": 2,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 31421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Claire Dubois",
+        "Antoine Moreau"
+      ],
+      "nacionalidade": "França",
+      "hotel": "Sanma Hotel",
+      "voo_chegada_existe": true,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "18:35",
+      "voo_chegada_numero": "AF 4562",
+      "voo_partida_existe": false,
+      "voo_partida_data": "",
+      "voo_partida_horario": "",
+      "voo_partida_numero": "",
+      "idioma": "francês",
+      "file": "61483",
+      "pedagios": "br",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group6": {
+      "pax": 11,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 41421,
+      "numero_de_guias_externos": 1,
+      "nomes_dos_passageiros": [
+        "Carlos García",
+        "Lucía Torres"
+      ],
+      "nacionalidade": "Espanha",
+      "hotel": "Vivaz Cataratas Resort",
+      "voo_chegada_existe": false,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "",
+      "voo_chegada_numero": "",
+      "voo_partida_existe": true,
+      "voo_partida_data": "14.08.2026",
+      "voo_partida_horario": "09:00",
+      "voo_partida_numero": "IB 3907",
+      "idioma": "espanhol",
+      "file": "84520",
+      "pedagios": "br+arg",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group7": {
+      "pax": 5,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 61421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Thomas Weber",
+        "Laura Klein"
+      ],
+      "nacionalidade": "Alemanha",
+      "hotel": "Grand Carimã Resort & Convention Center",
+      "voo_chegada_existe": true,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "21:15",
+      "voo_chegada_numero": "LH 5088",
+      "voo_partida_existe": true,
+      "voo_partida_data": "15.08.2026",
+      "voo_partida_horario": "06:40",
+      "voo_partida_numero": "LH 5091",
+      "idioma": "alemão",
+      "file": "39271",
+      "pedagios": "br",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group8": {
+      "pax": 3,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 71421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Michael Evans",
+        "Daniel Green"
+      ],
+      "nacionalidade": "Inglaterra",
+      "hotel": "Mabu Thermas Grand Resort",
+      "voo_chegada_existe": false,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "",
+      "voo_chegada_numero": "",
+      "voo_partida_existe": false,
+      "voo_partida_data": "",
+      "voo_partida_horario": "",
+      "voo_partida_numero": "",
+      "idioma": "inglês",
+      "file": "10486",
+      "pedagios": "br+arg",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group9": {
+      "pax": 7,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 81421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Isabella Rossi",
+        "Matteo Russo"
+      ],
+      "nacionalidade": "Itália",
+      "hotel": "DoubleTree by Hilton Foz do Iguaçu Brazil",
+      "voo_chegada_existe": true,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "14:50",
+      "voo_chegada_numero": "AZ 7428",
+      "voo_partida_existe": true,
+      "voo_partida_data": "16.08.2026",
+      "voo_partida_horario": "11:25",
+      "voo_partida_numero": "AZ 7431",
+      "idioma": "italiano",
+      "file": "68735",
+      "pedagios": "br",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group10": {
+      "pax": 2,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 91421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Marie Laurent",
+        "Julien Bernard"
+      ],
+      "nacionalidade": "França",
+      "hotel": "Bourbon Thermas Eco Resort Cataratas do Iguaçu",
+      "voo_chegada_existe": true,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "13:10",
+      "voo_chegada_numero": "AF 2219",
+      "voo_partida_existe": false,
+      "voo_partida_data": "",
+      "voo_partida_horario": "",
+      "voo_partida_numero": "",
+      "idioma": "francês",
+      "file": "52840",
+      "pedagios": "br+arg",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group11": {
+      "pax": 8,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 52421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Pablo Navarro",
+        "Elena Morales"
+      ],
+      "nacionalidade": "Espanha",
+      "hotel": "Viale Cataratas Hotel & Eventos",
+      "voo_chegada_existe": false,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "",
+      "voo_chegada_numero": "",
+      "voo_partida_existe": true,
+      "voo_partida_data": "17.08.2026",
+      "voo_partida_horario": "07:55",
+      "voo_partida_numero": "UX 3045",
+      "idioma": "espanhol",
+      "file": "91627",
+      "pedagios": "br",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group12": {
+      "pax": 12,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 53421,
+      "numero_de_guias_externos": 1,
+      "nomes_dos_passageiros": [
+        "Max Schneider",
+        "Anna Wagner"
+      ],
+      "nacionalidade": "Alemanha",
+      "hotel": "Viale Tower Hotel",
+      "voo_chegada_existe": true,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "16:05",
+      "voo_chegada_numero": "LH 4172",
+      "voo_partida_existe": true,
+      "voo_partida_data": "18.08.2026",
+      "voo_partida_horario": "12:30",
+      "voo_partida_numero": "LH 4175",
+      "idioma": "alemão",
+      "file": "75038",
+      "pedagios": "br+arg",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group13": {
+      "pax": 4,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 51421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Anna Taylor",
+        "George White"
+      ],
+      "nacionalidade": "Inglaterra",
+      "hotel": "Hotel Rafain Centro",
+      "voo_chegada_existe": false,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "",
+      "voo_chegada_numero": "",
+      "voo_partida_existe": true,
+      "voo_partida_data": "19.08.2026",
+      "voo_partida_horario": "15:15",
+      "voo_partida_numero": "BA 6620",
+      "idioma": "inglês",
+      "file": "48395",
+      "pedagios": "br",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group14": {
+      "pax": 9,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 54421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Federico Costa",
+        "Martina Rinaldi"
+      ],
+      "nacionalidade": "Itália",
+      "hotel": "Nadai Confort Hotel & SPA",
+      "voo_chegada_existe": true,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "20:25",
+      "voo_chegada_numero": "AZ 3348",
+      "voo_partida_existe": false,
+      "voo_partida_data": "",
+      "voo_partida_horario": "",
+      "voo_partida_numero": "",
+      "idioma": "italiano",
+      "file": "26174",
+      "pedagios": "br+arg",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group15": {
+      "escala": "05-08-2026",
+      "in_out": true,
+      "pax": 3,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": "55421",
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Bamille Petit",
+        "Élodie Garnier"
+      ],
+      "nacionalidade": "França",
+      "hotel": "Tarobá Hotel",
+      "voo_chegada_existe": true,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "17:40",
+      "voo_chegada_numero": "AF 9021",
+      "voo_partida_existe": true,
+      "voo_partida_data": "20.08.2026",
+      "voo_partida_horario": "09:35",
+      "voo_partida_numero": "AF 9026",
+      "idioma": "francês",
+      "file": "60719",
+      "pedagios": "br"
+    },
+    "group16": {
+      "pax": 10,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 51421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Alejandro Santos",
+        "María Peña"
+      ],
+      "nacionalidade": "Argentina",
+      "hotel": "Recanto Cataratas Thermas Resort & Convention",
+      "voo_chegada_existe": false,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "",
+      "voo_chegada_numero": "",
+      "voo_partida_existe": true,
+      "voo_partida_data": "21.08.2026",
+      "voo_partida_horario": "13:50",
+      "voo_partida_numero": "AR 1783",
+      "idioma": "espanhol",
+      "file": "39582",
+      "pedagios": "br+arg",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group17": {
+      "pax": 5,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 56421,
+      "numero_de_guias_externos": 0,
+      "nomes_dos_passageiros": [
+        "Oliver Smith",
+        "Charlotte Smith"
+      ],
+      "nacionalidade": "Inglaterra",
+      "hotel": "Wish Foz do Iguaçu Resort",
+      "voo_chegada_existe": true,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "12:05",
+      "voo_chegada_numero": "BA 5107",
+      "voo_partida_existe": true,
+      "voo_partida_data": "22.08.2026",
+      "voo_partida_horario": "18:20",
+      "voo_partida_numero": "BA 5110",
+      "idioma": "inglês",
+      "file": "87406",
+      "pedagios": "br",
+      "escala": "05-08-2026",
+      "in_out": true
+    },
+    "group18": {
+      "pax": 13,
+      "pagou_pelo_guia_extra": false,
+      "agencia": "Idéia Tours",
+      "O.S.": 51431,
+      "numero_de_guias_externos": 1,
+      "nomes_dos_passageiros": [
+        "Klaus Berger",
+        "Tobias Graf"
+      ],
+      "nacionalidade": "Alemanha",
+      "hotel": "Loi Suites Iguazú Hotel",
+      "voo_chegada_existe": true,
+      "voo_chegada_data": "05.08.2026",
+      "voo_chegada_horario": "19:30",
+      "voo_chegada_numero": "LH 8894",
+      "voo_partida_existe": true,
+      "voo_partida_data": "23.08.2026",
+      "voo_partida_horario": "08:15",
+      "voo_partida_numero": "LH 8899",
+      "idioma": "alemão",
+      "file": "14263",
+      "pedagios": "br+arg",
+      "escala": "05-08-2026",
+      "in_out": true
+    }
+  }
+}
