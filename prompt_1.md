@@ -1,76 +1,324 @@
-# Ich habe folgendes Problem:
+# Automatische Zuordnung von Fahrzeugen, Fahrern und Guides zu Touristengruppen
 
-Ich habe ein Touristenunternehmen mit einer Fahrzeugflotte, die im **dict "all_cars"** gelisted sind.
-Wie man anhand der Daten erkennen kann, sind die Fahrzeuge unterschiedlich groß (keys: capacidade_min_de_pessoas, capacidade_max_de_pessoas)
- 
+## Ausgangssituation
 
-Dann habe ich Leute, die für mich arbeiten und die im dict "all_guides" gelisted sind. 
-Es gibt dort Leute, die entweder 
-1) nur Fahrer sind (is_driver=True, is_guide=False)
-2) nur Guides sind (is_driver=False, is_guide=True) 
-3) beides sind (is_driver=True, is_guide=True)
-Die Fahrzeuge, die die Personen fahren dürfen, sind in "can_drive" gelistet. 
-Die Sprachen, die eine Person spricht, sind in "languages" gelistet. 
-Wenn eine Person nur Guide ist und nicht fahren darf, braucht sie natürlich noch einen zusätzlichen Fahrer. Dies bietet sich vor allem bei großen Gruppen an.
+Ich betreibe ein Touristikunternehmen mit einer eigenen Fahrzeugflotte. Die verfügbaren Fahrzeuge befinden sich im Dictionary `all_cars`.
 
-Die Gäste sind in verschiedenen Hotels untergebracht, deren Daten sich im dict "hotels" befinden.
+Die Fahrzeuge haben unterschiedliche Größen und Kapazitäten. Die jeweilige Mindest- und Höchstkapazität wird über folgende Keys angegeben:
 
-Die Firma bekommt jeden Tag eine Vielzahl von Gruppen. In dem dict "tourist_groups" findest du ein Beispiel der Informationen der Gruppen, die wir am 05.08.2026 (key: voo_chegada_data) bekommen und denen wir ein Fahrzeug mit geeigneter Kapazität (Minimum bevorzugt), Fahrer, Guide (mit gleicher Sprache) zuordnen müssen. Diese Arbeit wird zurzeit manuell erledigt und erfordert großen Aufwand. Deine Aufgabe ist es, ein Python-Script zu erstellen, das diese Aufgabe automatisiert.  
+* `capacidade_min_de_pessoas`
+* `capacidade_max_de_pessoas`
 
-Ich gebe dir hier ein Beispiel als Markdown, wie diese Ausgabe von "group2" sein könnte:
+Außerdem arbeiten verschiedene Personen für das Unternehmen. Ihre Daten befinden sich im Dictionary `all_guides`.
 
-| O.S. | File | Pax | Pax/Groupo | Chegada | Saída | Vôo Out | Hotel | Idioma | Guia | Veículo / Motorista | Agência |
-|------|------|-----|------------|---------|-------|---------|-------|--------|------|---------------------|---------|
+Dabei gibt es drei Arten von Mitarbeitern:
+
+1. **Nur Fahrer**
+
+   * `is_driver=True`
+   * `is_guide=False`
+
+2. **Nur Guide**
+
+   * `is_driver=False`
+   * `is_guide=True`
+
+3. **Fahrer und Guide**
+
+   * `is_driver=True`
+   * `is_guide=True`
+
+Die Fahrzeuge, die eine Person fahren darf, sind unter dem Key `can_drive` aufgelistet.
+
+Die Sprachen, die eine Person spricht, befinden sich unter dem Key `languages`.
+
+Wenn eine Person ausschließlich als Guide tätig ist und nicht fahren darf, muss zusätzlich ein Fahrer eingeteilt werden. Dies bietet sich insbesondere bei größeren Gruppen an.
+
+Die Gäste sind in verschiedenen Hotels untergebracht. Die Daten dieser Hotels befinden sich im Dictionary `hotels`.
+
+---
+
+## Aufgabe
+
+Das Unternehmen betreut täglich eine Vielzahl von Touristengruppen.
+
+Im Dictionary `tourist_groups` befindet sich ein Beispiel mit den Informationen zu den Gruppen, die am **05.08.2026** ankommen. Das relevante Datum befindet sich unter dem Key `voo_chegada_data`.
+
+Jeder Gruppe müssen automatisch folgende Ressourcen zugeordnet werden:
+
+* ein Fahrzeug mit geeigneter Kapazität,
+* ein Fahrer,
+* ein Guide, der die Sprache der Gruppe spricht.
+
+Dabei soll nach Möglichkeit immer das **kleinste geeignete Fahrzeug** verwendet werden.
+
+Diese Planung wird derzeit manuell durchgeführt und verursacht einen erheblichen Arbeitsaufwand.
+
+Erstelle deshalb ein Python-Skript, das die Zuordnung von Fahrzeugen, Fahrern und Guides automatisiert.
+
+---
+
+# Beispiel für die gewünschte Ausgabe
+
+Für `group2` könnte die Ausgabe beispielsweise folgendermaßen aussehen:
+
+| O.S.  | File  | Pax | Pax/Grupo                 | Chegada         | Saída      | Vôo Out         | Hotel                                          | Idioma | Guia        | Veículo / Motorista              | Agência     |
+| ----- | ----- | --: | ------------------------- | --------------- | ---------- | --------------- | ---------------------------------------------- | ------ | ----------- | -------------------------------- | ----------- |
 | 51121 | 51851 | 3+1 | Hans Müller + Ana Schmidt | KK 3290 - 11:30 | 11.08.2026 | JJ 1179 - 07:30 | Bourbon Thermas Eco Resort Cataratas do Iguaçu | alemão | Paulo Baron | EXPERT 4 - UAY7D24 - Paulo Baron | Idéia Tours |
 
-Amerkung: Das ist nur ein Beispiel, es wäre auch vollkommen okay, wenn die Ausgabe zum Beispiel so wäre:
+> **Anmerkung:** Dies ist nur eine mögliche korrekte Zuordnung. Da mehrere geeignete Fahrer, Guides und Fahrzeuge verfügbar sein können, sind auch andere Ergebnisse zulässig.
 
-| O.S. | File | Pax | Pax/Groupo | Chegada | Saída | Vôo Out | Hotel | Idioma | Guia | Veículo / Motorista | Agência |
-|------|------|-----|------------|---------|-------|---------|-------|--------|------|---------------------|---------|
+Beispielsweise wäre auch folgende Zuordnung korrekt:
+
+| O.S.  | File  | Pax | Pax/Grupo                 | Chegada         | Saída      | Vôo Out         | Hotel                                          | Idioma | Guia    | Veículo / Motorista          | Agência     |
+| ----- | ----- | --: | ------------------------- | --------------- | ---------- | --------------- | ---------------------------------------------- | ------ | ------- | ---------------------------- | ----------- |
 | 51121 | 51851 | 3+1 | Hans Müller + Ana Schmidt | KK 3290 - 11:30 | 11.08.2026 | JJ 1179 - 07:30 | Bourbon Thermas Eco Resort Cataratas do Iguaçu | alemão | Romildo | EXPERT 4 - UAY7D24 - Romildo | Idéia Tours |
 
-oder so: 
+Ebenso wäre die Verwendung eines anderen geeigneten Fahrzeugs möglich:
 
-| O.S. | File | Pax | Pax/Groupo | Chegada | Saída | Vôo Out | Hotel | Idioma | Guia | Veículo / Motorista | Agência |
-|------|------|-----|------------|---------|-------|---------|-------|--------|------|---------------------|---------|
+| O.S.  | File  | Pax | Pax/Grupo                 | Chegada         | Saída      | Vôo Out         | Hotel                                          | Idioma | Guia        | Veículo / Motorista                      | Agência     |
+| ----- | ----- | --: | ------------------------- | --------------- | ---------- | --------------- | ---------------------------------------------- | ------ | ----------- | ---------------------------------------- | ----------- |
 | 51121 | 51851 | 3+1 | Hans Müller + Ana Schmidt | KK 3290 - 11:30 | 11.08.2026 | JJ 1179 - 07:30 | Bourbon Thermas Eco Resort Cataratas do Iguaçu | alemão | Paulo Baron | PEUGEOT/EXPERT 1 - SEN9F61 - Paulo Baron | Idéia Tours |
 
-oder so: 
+Auch diese Kombination wäre zulässig:
 
-| O.S. | File | Pax | Pax/Groupo | Chegada | Saída | Vôo Out | Hotel | Idioma | Guia | Veículo / Motorista | Agência |
-|------|------|-----|------------|---------|-------|---------|-------|--------|------|---------------------|---------|
+| O.S.  | File  | Pax | Pax/Grupo                 | Chegada         | Saída      | Vôo Out         | Hotel                                          | Idioma | Guia    | Veículo / Motorista                  | Agência     |
+| ----- | ----- | --: | ------------------------- | --------------- | ---------- | --------------- | ---------------------------------------------- | ------ | ------- | ------------------------------------ | ----------- |
 | 51121 | 51851 | 3+1 | Hans Müller + Ana Schmidt | KK 3290 - 11:30 | 11.08.2026 | JJ 1179 - 07:30 | Bourbon Thermas Eco Resort Cataratas do Iguaçu | alemão | Romildo | PEUGEOT/EXPERT 1 - SEN9F61 - Romildo | Idéia Tours |
 
-Es gibt noch zig andere korrekte Optionen für dieses Beispiel.
+Für dieses Beispiel existieren noch zahlreiche weitere korrekte Zuordnungsmöglichkeiten.
 
+---
 
-Die Felder, die eine Erklärung benötigen:
+# Erklärung der Ausgabefelder
 
-Pax: hier werden die Keys "pax" und "numero_de_guias_externos" genommen und mit einem Pluszeichen verbunden. Wenn der Key "numero_de_guias_externos" die Value 0 hat, wird nur die Value von "pax" angegeben 
+## `Pax`
 
-Pax/Groupo: Hier werden die Values von dem Key "nomes_dos_passageiros" mit einem Pluszeichen verbunden. Wichtig ist: Hier werden nur die Hauptansprechpartner angegeben. Die Anzahl der Personen hier muss nicht mit der Anzahl von "pax" übereinstimmen 
+Dieses Feld setzt sich aus folgenden Keys zusammen:
 
-Chegada: Hier werden die Values von "voo_chegada_numero" und "voo_chegada_horario" mit einem Bindestrich verbunden. Wenn diese Daten fehlen, wird das Feld leergelassen.
+* `pax`
+* `numero_de_guias_externos`
 
-Vôo Out: Hier werden die Values von "voo_partida_numero" und "voo_partida_horario" mit einem Bindestrich verbunden. Wenn diese Daten fehlen, wird das Feld leergelassen.
+Beide Werte werden mit einem Pluszeichen verbunden.
 
-Jetzt du den wichtigsten Feldern, die deine Hauptaufgabe darstellen: 
-Idioma, Guia, Veículo / Motorista
+### Beispiel
 
-zu "Idioma": natürlich muss die Person Deutsch sprechen, denn die Sprache der Gruppe ist Deutsch 
+```text
+3+1
+```
 
-zu "Guia": Hier wurde "Paulo Baron" ausgewählt, weil er Deutsch spricht.
+Wenn `numero_de_guias_externos` den Wert `0` hat, wird ausschließlich der Wert von `pax` ausgegeben.
 
-zu "Veículo / Motorista": Hier wurde das Auto mit dem Kennzeichen UAY7D24 ausgewählt, da es eine minimale Kapazität von 4 Personen hat (Die Anzahl der Personen ergibt sich aus den Keys "pax" und "numero_de_guias_externos". Der Guia und der Fahrer werden nicht mit einberechnet. Außerdem darf Paulo Baron das Auto fahren, wie man anhand der Daten in "all_guides" sehen kann. Der entgültige Wert im Feld setzt sich aus dem  "marca_modelo" - "numero_do_carro" - Hauptkey (Autokennzeichen) - Fahrer zusammen. Wenn es eine Gruppe gibt, deren Summe von "pax" und "numero_de_guias_externos" die Variable maximum_group_size_with_only_one_person übertrifft oder der Key "pagou_pelo_guia_extra" die Value True, sollten 2 verschiedene Personen als Guia und Fahrer eingeteilt werden, da die Arbeit für eine Person sehr stressig wird.
+### Beispiel
 
-Wichtig zu wissen:
-1) Gehen wir von der folgenden Situation aus: Es gibt 19 Gruppen mit 3 oder weniger Personen. Wir haben aber nur 17 Autos verfügbar, die eine maximale Kapazität von 3 Personen haben. In diesem Fall sollen die nächstgrößeren Autos für die 2 übrigen Gruppen genommen werden. Diese Anforderung zählt natürlich nicht nur für die kleinsten Gruppen, sondern für alle Gruppen.
+```text
+3
+```
 
-2) Sollten die Autos nicht für alle Gruppen reichen, soll ein Vermerk auftauchen, dass weitere Autos für die übriggebliebenen Gruppen angemietet werden muss. 
+---
 
-3) Da es sich um den Fahrplan eines Tages handelt, darf jeder Fahrer, Guide und jedes maximal nur einmal benutzt werden. Es darf keine Überschneidungen geben! 
+## `Pax/Grupo`
 
-Deine Ausgabe soll kein Markdown sein. Mir reicht eine List of Lists vorerst. 
+Hier werden die Werte aus `nomes_dos_passageiros` mit einem Pluszeichen verbunden.
+
+### Beispiel
+
+```text
+Hans Müller + Ana Schmidt
+```
+
+Wichtig ist, dass hier nur die Hauptansprechpartner der Gruppe angegeben werden.
+
+Die Anzahl der aufgeführten Namen muss daher nicht mit dem Wert von `pax` übereinstimmen.
+
+---
+
+## `Chegada`
+
+Dieses Feld setzt sich aus folgenden Werten zusammen:
+
+* `voo_chegada_numero`
+* `voo_chegada_horario`
+
+Die Werte werden mit einem Bindestrich verbunden.
+
+### Beispiel
+
+```text
+KK 3290 - 11:30
+```
+
+Wenn die entsprechenden Flugdaten fehlen, bleibt das Feld leer.
+
+---
+
+## `Vôo Out`
+
+Dieses Feld setzt sich aus folgenden Werten zusammen:
+
+* `voo_partida_numero`
+* `voo_partida_horario`
+
+Die Werte werden mit einem Bindestrich verbunden.
+
+### Beispiel
+
+```text
+JJ 1179 - 07:30
+```
+
+Wenn die entsprechenden Flugdaten fehlen, bleibt das Feld leer.
+
+---
+
+# Zentrale Zuordnungsfelder
+
+Die Hauptaufgabe des Skripts besteht in der korrekten Ermittlung der folgenden drei Felder:
+
+1. `Idioma`
+2. `Guia`
+3. `Veículo / Motorista`
+
+---
+
+## `Idioma`
+
+Die eingeteilte Person muss die Sprache der jeweiligen Touristengruppe sprechen.
+
+Wenn die Sprache der Gruppe beispielsweise Deutsch ist, muss der ausgewählte Guide Deutsch sprechen.
+
+---
+
+## `Guia`
+
+Im oben dargestellten Beispiel wurde `Paulo Baron` ausgewählt, weil er Deutsch spricht und damit die sprachlichen Anforderungen der Gruppe erfüllt.
+
+Ein anderer verfügbarer Guide, der ebenfalls Deutsch spricht, wäre jedoch genauso zulässig.
+
+---
+
+## `Veículo / Motorista`
+
+Im ersten Beispiel wurde das Fahrzeug mit dem Kennzeichen `UAY7D24` ausgewählt.
+
+Dieses Fahrzeug besitzt eine Mindestkapazität von vier Personen und ist deshalb für die Gruppe geeignet.
+
+Die relevante Gruppengröße wird folgendermaßen berechnet:
+
+```python
+gruppengroesse = pax + numero_de_guias_externos
+```
+
+Der vom Unternehmen eingeteilte Guide und der Fahrer werden bei dieser Kapazitätsberechnung **nicht** berücksichtigt.
+
+Zusätzlich muss geprüft werden, ob die ausgewählte Person das Fahrzeug fahren darf. Diese Information befindet sich im jeweiligen `can_drive`-Eintrag innerhalb von `all_guides`.
+
+Der endgültige Wert des Feldes `Veículo / Motorista` setzt sich folgendermaßen zusammen:
+
+```text
+marca_modelo - numero_do_carro - Hauptkey des Fahrzeugs - Fahrer
+```
+
+Der Hauptkey des Fahrzeugs entspricht dem Autokennzeichen.
+
+### Beispiel
+
+```text
+EXPERT 4 - UAY7D24 - Paulo Baron
+```
+
+---
+
+# Trennung von Fahrer und Guide
+
+Normalerweise kann eine Person gleichzeitig als Fahrer und Guide eingesetzt werden, sofern sie beide Voraussetzungen erfüllt.
+
+Unter mindestens einer der folgenden Bedingungen sollen jedoch zwei unterschiedliche Personen eingeteilt werden:
+
+1. Die Summe aus `pax` und `numero_de_guias_externos` übersteigt den Wert der Variable `maximum_group_size_with_only_one_person`.
+
+2. Der Key `pagou_pelo_guia_extra` hat den Wert `True`.
+
+In diesen Fällen soll eine Person als Guide und eine andere Person als Fahrer eingeteilt werden, da die gleichzeitige Tätigkeit als Fahrer und Guide bei größeren Gruppen sehr stressig sein kann.
+
+---
+
+# Wichtige Regeln und Sonderfälle
+
+## 1. Verwendung größerer Fahrzeuge bei Engpässen
+
+Angenommen, es gibt 19 Gruppen mit jeweils höchstens drei Personen.
+
+Es stehen jedoch nur 17 Fahrzeuge zur Verfügung, deren maximale Kapazität drei Personen beträgt.
+
+In diesem Fall sollen für die beiden verbleibenden Gruppen die nächstgrößeren verfügbaren Fahrzeuge verwendet werden.
+
+Dieses Prinzip gilt nicht nur für kleine Gruppen, sondern für alle Gruppengrößen:
+
+> Wenn kein Fahrzeug der bevorzugten Größenklasse mehr verfügbar ist, soll das nächstgrößere geeignete Fahrzeug verwendet werden.
+
+Ein zu kleines Fahrzeug darf niemals zugeteilt werden.
+
+---
+
+## 2. Nicht ausreichende Anzahl an Fahrzeugen
+
+Falls die vorhandenen Fahrzeuge nicht für alle Gruppen ausreichen, soll bei den nicht zugeordneten Gruppen ein deutlicher Hinweis erscheinen.
+
+### Beispiel
+
+```text
+Für diese Gruppe muss ein zusätzliches Fahrzeug angemietet werden.
+```
+
+---
+
+## 3. Keine mehrfachen Zuordnungen
+
+Da es sich um den Fahrplan eines einzelnen Tages handelt, dürfen Ressourcen nicht mehrfach vergeben werden.
+
+Jede der folgenden Ressourcen darf maximal einmal verwendet werden:
+
+* jedes Fahrzeug,
+* jeder Fahrer,
+* jeder Guide.
+
+Es dürfen keine Überschneidungen oder Doppelbelegungen entstehen.
+
+Wenn eine Person gleichzeitig als Fahrer und Guide für eine Gruppe eingesetzt wird, gilt diese Person damit vollständig als belegt und darf keiner weiteren Gruppe zugeordnet werden.
+
+---
+
+# Gewünschtes Ausgabeformat
+
+Die tatsächliche Ausgabe des Python-Skripts soll vorerst **kein Markdown** sein.
+
+Eine **List of Lists** ist ausreichend.
+
+Die Struktur könnte beispielsweise folgendermaßen aussehen:
+
+```python
+[
+    [
+        "51121",
+        "51851",
+        "3+1",
+        "Hans Müller + Ana Schmidt",
+        "KK 3290 - 11:30",
+        "11.08.2026",
+        "JJ 1179 - 07:30",
+        "Bourbon Thermas Eco Resort Cataratas do Iguaçu",
+        "alemão",
+        "Paulo Baron",
+        "EXPERT 4 - UAY7D24 - Paulo Baron",
+        "Idéia Tours",
+    ],
+]
+```
+
+Erstelle ein vollständiges und ausführbares Python-Skript, das diese Anforderungen berücksichtigt und die Gruppen automatisch möglichst sinnvoll auf die verfügbaren Fahrzeuge, Fahrer und Guides verteilt.
+
+## Hier findest du die benötigten Daten als Python-Datentypen
 
 ```py
 all_cars = {
